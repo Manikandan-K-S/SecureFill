@@ -54,37 +54,31 @@ You are a personal data retrieval assistant.
 Retrieve the user's personal information from the provided documents.
 
 Respond strictly in this JSON format:
-{{ "field": "{field_name}", "value": "<retrieved_value>" }}
-
-If the information is not found in the documents, respond:
-{{ "field": "{field_name}", "value": "Data not found" }}
-
-Query: What is my {field_name}?
+Query: "{query}"
 """
 
 prompt = PromptTemplate(
-    input_variables=["field_name"],
+    input_variables=["query"],
     template=query_template
 )
 
-# Function to query personal information
-def query_personal_info(field_name):
-    query = prompt.format(field_name=field_name)
-    start = time.time()
-    response = qa_chain.invoke({"query": query})
-    end = time.time()
+input_query = "What is my email address?"
+
+query = prompt.format(query=input_query)
+
+start = time.time()
+response = qa_chain.invoke({"query": query})
+end = time.time()
 
     # Print execution time
-    print(f"\nExecution Time: {end - start:.2f} seconds")
+print(f"\nExecution Time: {end - start:.2f} seconds")
 
     # Print answer
-    print(f"Answer for '{field_name}': {response['result']}")
+print(f"Answer for '{query}': {response['result']}")
 
     # Print retrieved documents
-    print("\nRetrieved Documents:")
-    for i, doc in enumerate(response["source_documents"]):
-        print(f"Document {i+1}: {doc.page_content}")
+print("\nRetrieved Documents:")
 
-# Example Usage
-if __name__ == "__main__":
-    query_personal_info("credit card number")
+for i, doc in enumerate(response["source_documents"]):
+    print(f"Document {i+1}: {doc.page_content}")
+
