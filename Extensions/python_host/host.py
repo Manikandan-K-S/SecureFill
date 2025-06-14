@@ -56,6 +56,7 @@ try:
     while True:
         message = read_message_from_extension()
         if message:
+            
             logging.info(f"Received data from extension: {json.dumps(message, indent=2)}")
             # In a real app, you would save this data or pass it on.
         else:

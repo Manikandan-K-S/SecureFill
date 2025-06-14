@@ -1,7 +1,7 @@
 {
   "name": "com.my_ai_app.native_host",
   "description": "My Awesome AI Host",
-  "path": "C:\\Users\\manik\\OneDrive\\Desktop\\Qualcomm Hackathon\\SecureFill\\SecureFill\\Extensions\\python_host\\run_host.bat",
+  "path": "C:\\Users\\Qualcomm\\Desktop\\SecureFill\\SecureFill\\Extensions\\python_host\\run_host.bat",
   "type": "stdio",
-  "allowed_origins": ["chrome-extension://emklmcdiicdckjkiedoijpmmlgncaiie/"]
+  "allowed_origins": ["chrome-extension://jelodanakgkokhaelenkclclolkdgnpp/"]
 }

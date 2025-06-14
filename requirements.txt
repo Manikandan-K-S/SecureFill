@@ -1,0 +1,8 @@
+langchain-core
+langchain-community
+langchain
+chromadb
+sentence-transformers
+pyyaml
+requests
+httpx

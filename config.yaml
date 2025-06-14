@@ -1,0 +1,5 @@
+api_key: "YRN7HE2-YSYMFKJ-KHF2Z45-SZRTKBD"
+model_server_base_url: "http://localhost:3001/api/v1"
+workspace_slug: "sample"
+stream: true
+stream_timeout: 60
