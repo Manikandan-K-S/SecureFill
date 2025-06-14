@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AI Assistant - Form Scanner",
+  "version": "1.2",
+  "description": "Scans web forms on the active page.",
+  "permissions": ["nativeMessaging", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "AI Form Assistant"
+  }
+}
