@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; This key is for Google Chrome
+[HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts\com.my_ai_app.native_host]
+@="C:\\Users\\sharu\\Documents\\EdgeAi\\my_ai_app\\python_host\\com.my_ai_app.native_host.json"
+
+; This key is for Brave Browser
+[HKEY_CURRENT_USER\SOFTWARE\BraveSoftware\Brave-Browser\NativeMessagingHosts\com.my_ai_app.native_host]
+@="C:\\Users\\sharu\\Documents\\EdgeAi\\my_ai_app\\python_host\\com.my_ai_app.native_host.json"
