@@ -131,4 +131,27 @@ def view_document(doc_id: str):
     }
     return doc
 
+def similarity_search(query: str, top_k: int = 4):
+    """
+    Performs a similarity search in the vector database using the provided query text.
+
+    Args:
+        query (str): The text input to search similar documents for.
+        top_k (int): Number of similar documents to retrieve.
+
+    Returns:
+        list: A list of dictionaries representing the similar documents.
+    """
+    results = vectorstore.similarity_search(query, k=top_k)
+
+    similar_docs = []
+    for doc in results:
+        similar_docs.append({
+            "content": doc.page_content,
+            "metadata": doc.metadata
+        })
+
+    print(f"✓ Found {len(similar_docs)} similar documents for query: '{query}'")
+    return similar_docs
+
 
