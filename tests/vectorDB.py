@@ -19,6 +19,7 @@ texts = [
     "My credit card number is 9876 5432 1098 7654.",
     "My PAN card number is ABCDE1234F.",
     "My UPI ID is john.doe@upi.",
+    "aadhar number is 12234234",
     # SecureFill Context
     "SecureFill is activated via a keyboard shortcut.",
     "SecureFill performs all operations on the user's device to ensure maximum privacy.",
@@ -27,6 +28,7 @@ texts = [
     "SecureFill can be useful for users who want faster form filling without compromising their personal data privacy.",
     "SecureFill supports multiple profiles, allowing users to switch between personal and work information.",
     # Additional User Scenarios
+    "my home address is dsfdsf dfdfsjn",
     "My work email is john.doe@company.com.",
     "My company address is 789 Corporate Plaza, New York.",
     "My work phone number is +1 987 654 3210.",
@@ -39,7 +41,7 @@ texts = [
 ]
 
 # Initialize embeddings
-embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L12-v2")
 
 # Create FAISS vector store (no index_factory)
 db = FAISS.from_texts(

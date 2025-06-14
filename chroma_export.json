@@ -1,0 +1,23 @@
+{
+    "email-personal": {
+        "document": "john.doe@email.com",
+        "metadata": {
+            "category": "contact",
+            "label": "personal"
+        }
+    },
+    "name-primary": {
+        "document": "John Doe",
+        "metadata": {
+            "label": "primary",
+            "category": "profile"
+        }
+    },
+    "addr-work": {
+        "document": "123 Tech Park, Silicon Valley",
+        "metadata": {
+            "category": "address",
+            "label": "work"
+        }
+    }
+}

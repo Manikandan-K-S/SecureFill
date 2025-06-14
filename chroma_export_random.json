@@ -1,0 +1,23 @@
+{
+    "ae6b2e2b-316d-4f0e-9b9d-815952656749": {
+        "document": "john.doe@email.com",
+        "metadata": {
+            "category": "contact",
+            "label": "personal"
+        }
+    },
+    "f700769c-bb04-46b2-a578-8df22d2fd080": {
+        "document": "John Doe",
+        "metadata": {
+            "category": "profile",
+            "label": "primary"
+        }
+    },
+    "92f6b4e7-cd42-4754-8bed-eb925f24bd35": {
+        "document": "123 Tech Park, Silicon Valley",
+        "metadata": {
+            "category": "address",
+            "label": "work"
+        }
+    }
+}

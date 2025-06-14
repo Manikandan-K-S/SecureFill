@@ -2,12 +2,8 @@
 This script demonstrates how to use LangChain with Ollama and FAISS for vector database integration.
 It uses the BGE embeddings model from HuggingFace and the Ollama LLM to create a RetrievalQA chain.
 
-Make sure you have the following prerequisites installed:
-
-    Install the required packages:
+Prerequisites:
     pip install langchain langchain-community langchain-huggingface langchain-ollama faiss-cpu
-
-    Install Ollama and the Gemma2 model:
     ollama pull gemma2:2b
 '''
 
@@ -18,8 +14,9 @@ from langchain_ollama import OllamaLLM
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
+start = time.time()
 # Load embeddings
-embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L12-v2")
 
 # Load FAISS index
 db = FAISS.load_local(
@@ -28,18 +25,20 @@ db = FAISS.load_local(
     allow_dangerous_deserialization=True
 )
 
+end = time.time()
 # Optimized retriever with MMR
-retriever = db.as_retriever(
-    search_type="mmr",
-    search_kwargs={
-        "k": 4,          # Number of documents to retrieve
-        "fetch_k": 10    # Number of candidates to consider for diversity
-    }
-)
+print(f"FAISS index loaded in {end - start:.2f} seconds")
+start = time.time()
+retriever = db.as_retriever(search_kwargs={"k": 10})
+end = time.time()
+
+print(f"FAISS retreiver time {end - start:.2f} seconds")
 
 # Load Ollama LLM
-llm = OllamaLLM(model="gemma2:2b", temperature=0.5)
-
+start = time.time()
+llm = OllamaLLM(model="granite3.3:2b", temperature=0.5)
+end = time.time()
+print(f"Ollama LLM loaded in {end - start:.2f} seconds")
 # Create RetrievalQA chain
 qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
@@ -51,9 +50,13 @@ qa_chain = RetrievalQA.from_chain_type(
 query_template = """
 You are a personal data retrieval assistant.
 
-Retrieve the user's personal information from the provided documents.
+From the provided documents, retrieve the user's personal information which is asked donot provide extra content.
 
-Respond strictly in this JSON format:
+Your response must be strictly in this JSON format for each mentioned key:
+{{
+    "key - attribute": "<the answer or 'Data not found' if the information is missing>"
+}}
+
 Query: "{query}"
 """
 
@@ -62,23 +65,21 @@ prompt = PromptTemplate(
     template=query_template
 )
 
-input_query = "What is my email address?"
-
+# User Query
+input_query = "pan card no"
 query = prompt.format(query=input_query)
 
-start = time.time()
-response = qa_chain.invoke({"query": query})
-end = time.time()
+for i in range(4):
+    print(f"\nIteration {i + 1}:")
+    # Measure execution time
+    start = time.time()
+    response = qa_chain.invoke({"query": query})
+    end = time.time()
 
-    # Print execution time
-print(f"\nExecution Time: {end - start:.2f} seconds")
+    # Display results
+    print(f"\nExecution Time: {end - start:.2f} seconds")
+    print(f"\nAnswer:\n{response['result']}")
 
-    # Print answer
-print(f"Answer for '{query}': {response['result']}")
-
-    # Print retrieved documents
 print("\nRetrieved Documents:")
-
 for i, doc in enumerate(response["source_documents"]):
-    print(f"Document {i+1}: {doc.page_content}")
-
+    print(f"Document {i + 1}: {doc.page_content}")
