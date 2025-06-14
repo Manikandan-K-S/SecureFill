@@ -1,3 +1,0 @@
-# Ignore native messaging host manifest and registry registration files
-Extensions/python_host/com.my_ai_app.native_host.json
-Extensions/python_host/register_host.reg
