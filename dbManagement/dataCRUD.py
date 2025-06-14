@@ -1,7 +1,7 @@
 import uuid
 import json
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 
 # --- 1. Setup LangChain Components ---
@@ -9,7 +9,7 @@ DB_PATH = "./DataStore"
 COLLECTION_NAME = "document_store_lc"
 
 # Initialize the embedding function and the Chroma vector store
-embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectorstore = Chroma(
     collection_name=COLLECTION_NAME,
     embedding_function=embedding_function,
