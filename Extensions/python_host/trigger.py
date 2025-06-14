@@ -15,5 +15,5 @@ def send_scan_command():
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    input("Press Enter to send the scan command to the extension...")
+    #input("Press Enter to send the scan command to the extension...")
     send_scan_command()
