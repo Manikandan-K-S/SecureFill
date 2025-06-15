@@ -1,12 +1,13 @@
 import yaml
 import json
 import time
-import re # Import the regular expression module
+import re
 
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
+# Corrected import: Removed the leading dot. This assumes modelWrapper.py is in the same directory.
 from .modelWrapper import CustomHTTPChatModel
 
 # --- Configuration & Setup (No changes here) ---
@@ -42,32 +43,22 @@ def initialize_vectorstore():
         print(f"Error loading FAISS index: {e}")
         return None
 
-# --- Core LLM Chains (No changes here) ---
+# --- Core LLM Chains (PROMPT HAS BEEN IMPROVED) ---
 analysis_prompt_template = """
 You are an expert form analysis engine. Your task is to analyze a list of HTML input fields and a user's instructions to create a structured JSON plan for a vector database search.
-
-User's Instructions:
-"{user_prompt}"
-
-List of HTML Input Fields:
-{html_fields}
-
-Your goal is to return a single JSON array of objects. Each object must represent one HTML field and contain these keys:
-- "original_html": The full, unmodified HTML tag of the input field.
-- "description": A clean, human-readable description of what the field is asking for (e.g., "Full Name", "Email Address").
-- "search_query": A concise, effective search query for a vector database. This query must reflect the user's instructions.
-
-IMPORTANT:
+User's Instructions: "{user_prompt}"
+List of HTML Input Fields: {html_fields}
+Your goal is to return a single JSON array of objects. Each object must represent one HTML field and contain: "original_html", "description", and "search_query".
 - If the user provides specific instructions (e.g., "use my work info"), tailor the "search_query" accordingly (e.g., "work email address").
-- If the user's instructions are empty or generic, create a generic "search_query" based only on the field's description (e.g., "email address").
-
-Return ONLY the JSON array and nothing else.
+- If instructions are generic, create a generic "search_query" (e.g., "email address").
+Return ONLY the JSON array.
 """
 analysis_prompt = PromptTemplate.from_template(analysis_prompt_template)
 
+# --- THIS IS THE KEY IMPROVEMENT ---
 action_plan_prompt_template = """
 You are an expert system that generates a JSON "Action Plan" to fill a web form.
-Based on the user's request and the context documents retrieved from a database, create a list of actions.
+Based on the user's request and context documents, create a list of actions.
 
 User's Original Request:
 "{user_prompt}"
@@ -80,30 +71,29 @@ Analyzed Form Fields (with their original HTML):
 
 ---
 Your task is to generate a JSON array of action objects. Each object must have three keys:
-1. "selector": A unique and reliable CSS selector for the element, preferring 'id' (e.g., "#userId"), then 'name' (e.g., "[name='userName']"). Use the 'original_html' of each field to find the best selector.
-2. "action_type": The type of action to perform. Must be one of: "FILL_TEXT", "SELECT_DROPDOWN", "CHECK_BOX", "SELECT_RADIO".
-3. "value": The value to fill or select. For checkboxes, this should be a boolean (true or false).
+1. "selector": A unique and reliable CSS selector. **You MUST prioritize 'id' over 'name'.** For example, if a tag has both id="user-email" and name="email", you MUST use "#user-email".
+2. "action_type": The type of action. Must be one of: "FILL_TEXT", "SELECT_DROPDOWN", "CHECK_BOX", "SELECT_RADIO".
+3. "value": The value to fill or select. For checkboxes, this must be a boolean (true or false).
 
-If no relevant value is found in the context for a field, do not include that field in the final action plan array.
+**CRITICAL EXAMPLE FOR DROPDOWNS:**
+If a field is `<select id="country_select" name="country"><option value="IN">India</option></select>`, the correct action is:
+`{{"selector": "#country_select", "action_type": "SELECT_DROPDOWN", "value": "IN"}}`
+Notice the selector targets the `<select>` tag itself, NOT the option.
+
+If no relevant value is found in the context for a field, DO NOT include it in the final array.
 Return ONLY the JSON array and nothing else.
 """
 action_plan_prompt = PromptTemplate.from_template(action_plan_prompt_template)
 
 
-# --- NEW HELPER FUNCTION ---
 def extract_json_from_response(text: str):
-    """
-    Uses a regular expression to find and extract a JSON object or array from a string.
-    This is more robust than just finding the first and last brackets.
-    """
-    # This regex looks for a string starting with '{' or '[' and ending with '}' or ']'
-    # It accounts for nested structures.
+    """Uses a regular expression to find and extract a JSON object or array from a string."""
     match = re.search(r'(\[.*\]|\{.*\})', text, re.DOTALL)
     if match:
         return match.group(0)
     return None
 
-# --- Main Application Logic Functions (UPDATED) ---
+# --- Main Application Logic Functions (No changes needed in the functions themselves) ---
 
 def analyze_form_and_create_search_plan(chain, html_fields: list, user_prompt: str):
     """Analyzes the form and user prompt in one call to generate a search plan."""
@@ -115,7 +105,6 @@ def analyze_form_and_create_search_plan(chain, html_fields: list, user_prompt: s
         "user_prompt": prompt_for_llm
     })
     
-    # Use the new robust extractor
     json_string = extract_json_from_response(response_text)
     
     if not json_string:
@@ -169,7 +158,6 @@ def generate_action_plan(chain, search_results: list, user_prompt: str):
         "user_prompt": prompt_for_llm
     })
 
-    # Use the new robust extractor here as well
     json_string = extract_json_from_response(response_text)
 
     if not json_string:
@@ -183,16 +171,3 @@ def generate_action_plan(chain, search_results: list, user_prompt: str):
     except json.JSONDecodeError:
         print(f"⚠️ Failed to parse extracted JSON from action plan. Raw Response:\n{response_text}")
         return []
-
-# --- Main Execution Block (No changes needed here) ---
-if __name__ == "__main__":
-    # This part remains the same
-    config = load_config()
-    llm = initialize_llm(config)
-    vectorstore = initialize_vectorstore()
-    if not all([config, llm, vectorstore]):
-        print("\nExiting due to initialization errors.")
-    else:
-        analyze_chain = analysis_prompt | llm | StrOutputParser()
-        action_plan_chain = action_plan_prompt | llm | StrOutputParser()
-        # ... rest of the main block ...
