@@ -1,4 +1,8 @@
 from langchain_community.vectorstores import FAISS
+
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer("all-MiniLM-L12-v2")
+
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # Prepare the texts

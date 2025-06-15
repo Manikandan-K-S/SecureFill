@@ -1,0 +1,52 @@
+2025-06-15 03:25:23,940 - Received 'scan' command from local trigger.
+2025-06-15 03:25:23,940 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 03:25:23,946 - Received data from extension: {
+  "action": "contextual_scan_result",
+  "data": [
+    "<div jscontroller=\"vZr2rb\" jsname=\"gLFyf\" class=\"a4bIc\" data-hpmde=\"false\" data-mnr=\"4\" jsaction=\"h5M12e;input:d3sQLd;blur:jI3wzf\"><div jsname=\"vdLsw\" class=\"YacQv\"></div><div jsname=\"aJyGR\" jscontroller=\"xMclgd\" class=\"gLFyf i4ySpb\" jsaction=\"rcuQ6b:npT2md\"><g-snackbar jsname=\"nH91he\" jscontroller=\"OZLguc\" style=\"display:none\" data-dismiss=\"\" jsshadow=\"\" id=\"ow13\" __is_owner=\"true\"><div jsname=\"Ng57nc\" class=\"Wu0v9b v0rrvd\" data-ved=\"0ahUKEwiXi-zR8fGNAxVrzTgGHe6CH7QQ4G8ICw\" jsowner=\"ow13\"><div class=\"b77HKf\"><div class=\"rIxsve\" jsslot=\"\"><span class=\"Txngnb wHYlTd yUTMj Sxjlmb\">Press <span class=\"qfY0Jf\">/</span> to jump to the search box</span></div></div></div><div jsname=\"sM5MNb\" aria-live=\"polite\" class=\"jhZvod\"></div></g-snackbar></div><textarea class=\"gLFyf\" aria-controls=\"Alh6id\" aria-owns=\"Alh6id\" value=\"internet speed test\" aria-label=\"Search\" placeholder=\"\" aria-autocomplete=\"both\" aria-expanded=\"false\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" id=\"APjFqb\" maxlength=\"2048\" name=\"q\" role=\"combobox\" rows=\"1\" spellcheck=\"false\" jsaction=\"paste:puy29d\" data-ved=\"0ahUKEwiXi-zR8fGNAxVrzTgGHe6CH7QQ39UDCAw\">internet speed test</textarea></div>",
+    "<form action=\"/search\" class=\"T3kYXe\" id=\"T3kYXe\" method=\"get\"><input name=\"q\" value=\"internet speed test\" type=\"hidden\"><input name=\"sca_esv\" value=\"edd97e466db1e8a2\" type=\"hidden\"><input name=\"source\" type=\"hidden\" value=\"lnt\"><input value=\"cdr:1,cd_min:x,cd_max:x\" id=\"HjtPBb\" name=\"tbs\" type=\"hidden\"><input value=\"\" name=\"tbm\" type=\"hidden\"><input class=\"OouJcb\" type=\"text\" value=\"\" autocomplete=\"off\" id=\"OouJcb\" jsaction=\"focus:daRB0b\"><input class=\"rzG2be\" type=\"text\" value=\"\" autocomplete=\"off\" id=\"rzG2be\" jsaction=\"focus:daRB0b\"><g-button class=\"Ru1Ao BwGU8e fE5Rge\" jsaction=\"hNEEAb\" role=\"button\" tabindex=\"0\">Go</g-button><input type=\"submit\" jsaction=\"zbvklb\" style=\"display:none\"></form>"
+  ]
+}
+2025-06-15 04:07:50,125 - Browser closed the connection. Exiting.
+2025-06-15 05:18:58,933 - --- Host Service Started by Browser ---
+2025-06-15 05:19:08,684 - Browser closed the connection. Exiting.
+2025-06-15 05:19:20,461 - --- Host Service Started by Browser ---
+2025-06-15 05:19:22,382 - Browser closed the connection. Exiting.
+2025-06-15 05:19:22,534 - --- Host Service Started by Browser ---
+2025-06-15 05:19:31,612 - Received 'scan' command from local trigger.
+2025-06-15 05:19:31,612 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 05:19:31,612 - Received data from extension: {
+  "action": "contextual_scan_result",
+  "data": []
+}
+2025-06-15 05:19:45,670 - Received 'scan' command from local trigger.
+2025-06-15 05:19:45,670 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 05:19:45,676 - Received data from extension: {
+  "action": "contextual_scan_result",
+  "data": [
+    "<div class=\"ant-form-item-control has-success\"><span class=\"ant-form-item-children\"><input type=\"text\" placeholder=\"Enter Email address\" autocomplete=\"username\" id=\"loginName\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\" value=\"24mx112@psgtech.ac.in\"></span></div>",
+    "<div class=\"ant-form-item-control\"><span class=\"ant-form-item-children\"><input type=\"password\" placeholder=\"Password\" autocomplete=\"current-password\" id=\"password\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\"></span></div>",
+    "<form id=\"goog-gt-votingForm\" action=\"//translate.googleapis.com/translate_voting?client=te_lib\" method=\"post\" target=\"votingFrame\" class=\"VIpgJd-yAWNEb-hvhgNd-aXYTce\"><input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\"><input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\"><input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\"><input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\"><input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\"></form>"
+  ]
+}
+2025-06-15 05:21:32,842 - Received 'scan' command from local trigger.
+2025-06-15 05:21:32,843 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 05:21:32,845 - Received data from extension: {
+  "action": "contextual_scan_result",
+  "data": [
+    "<div class=\"ant-form-item-control has-success\"><span class=\"ant-form-item-children\"><input type=\"text\" placeholder=\"Enter Email address\" autocomplete=\"username\" id=\"loginName\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\" value=\"24mx112@psgtech.ac.in\"></span></div>",
+    "<div class=\"ant-form-item-control\"><span class=\"ant-form-item-children\"><input type=\"password\" placeholder=\"Password\" autocomplete=\"current-password\" id=\"password\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\"></span></div>",
+    "<form id=\"goog-gt-votingForm\" action=\"//translate.googleapis.com/translate_voting?client=te_lib\" method=\"post\" target=\"votingFrame\" class=\"VIpgJd-yAWNEb-hvhgNd-aXYTce\"><input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\"><input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\"><input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\"><input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\"><input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\"></form>"
+  ]
+}
+2025-06-15 05:21:43,346 - Received 'scan' command from local trigger.
+2025-06-15 05:21:43,346 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 05:21:43,351 - Received data from extension: {
+  "action": "contextual_scan_result",
+  "data": [
+    "<div class=\"nwaBody\"><a name=\"A_user\"></a>\n      <input type=\"email\" style=\"width: 200px;\" name=\"user\" id=\"ID_form902c6a6b_guest_login_user\" value=\"\" autocapitalize=\"off\" autocorrect=\"off\" aria-labelledby=\"LB_form902c6a6b_guest_login_user\">\n    </div>",
+    "<div class=\"nwaBody\"><a name=\"A_password\"></a>\n      <input type=\"password\" style=\"width: 200px;\" name=\"password\" id=\"ID_form902c6a6b_guest_login_password\" value=\"\" autocomplete=\"new-password\" aria-labelledby=\"LB_form902c6a6b_guest_login_password\">\n     <label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-1\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-1\" value=\"no-ff-pwmgr-1\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n<label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-2\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-2\" value=\"no-ff-pwmgr-2\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n<label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-3\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-3\" value=\"no-ff-pwmgr-3\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n<label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-4\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-4\" value=\"no-ff-pwmgr-4\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n    </div>",
+    "<div class=\"nwaBody\"><a name=\"A_visitor_accept_terms\"></a>\n      <input type=\"checkbox\" id=\"ID_form902c6a6b_guest_login_visitor_accept_terms\" name=\"visitor_accept_terms\" value=\"1\" aria-labelledby=\"LB_form902c6a6b_guest_login_visitor_accept_terms LB_ID_form902c6a6b_guest_login_visitor_accept_terms\">\n      <label id=\"LB_ID_form902c6a6b_guest_login_visitor_accept_terms\" for=\"ID_form902c6a6b_guest_login_visitor_accept_terms\">I accept the <a href=\"public/tou.html\" target=\"_blank\" title=\"Open the terms of use URL.\">terms of use</a></label>\n    </div>",
+    "<div class=\"nwaBottom\" colspan=\"2\">\n     <a name=\"A_submit\"></a>\n       <input type=\"submit\" id=\"ID_form902c6a6b_guest_login_submit\" value=\"Log In\" disabled=\"\">\n<script language=\"JavaScript\" type=\"text/javascript\"><!--\ndocument.getElementById(\"ID_form902c6a6b_guest_login_submit\").onclick = function (ev) {\n\tev = ev || window.event;\n\tr = Nwa_SubmitForm(\"form902c6a6b_guest_login\",\"ID_form902c6a6b_guest_login_submit\");\n\tev.returnValue = r;\n\treturn r;\n}\n//-->\n</script>\n    </div>"
+  ]
+}

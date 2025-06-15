@@ -3,3 +3,4 @@ Extensions\python_host\register_host.reg
 Extensions\python_host\run_host.bat
 Extensions\python_host\com.my_ai_app.native_host.json
 securefill-env/
+Extensions\python_host\host_log.log

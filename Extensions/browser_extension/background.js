@@ -54,7 +54,7 @@ function contextualHtmlScanner() {
   elements.forEach((el) => {
     // 2. For each element, find its closest ancestor that is a meaningful container.
     // We include custom elements that start with 'lyte-' in the search.
-    const container = el.closest("div, p, li, fieldset, form, lyte-input, lyte-textarea, lyte-select");
+    const container = el.closest("fieldset, lyte-input, lyte-textarea, lyte-select,lyte-checkbox, lyte-radio");
 
     // 3. If we found a container, add its full HTML to our list.
     if (container) {
