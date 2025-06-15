@@ -183,3 +183,232 @@
 2025-06-15 11:40:31,096 - INFO - To Orchestrator >> Data sent successfully.
 2025-06-15 11:45:20,955 - INFO - From Orchestrator << Received command: 'execute_plan'
 2025-06-15 11:45:20,958 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 12:08:49,292 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 12:08:49,292 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 12:08:49,296 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 12:08:49,296 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 12:08:49,296 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 12:10:50,030 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 12:10:50,030 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 12:42:51,017 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 12:42:51,017 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 12:42:53,041 - ERROR - Could not connect to Orchestrator on port 6001. Is main.py running?
+2025-06-15 12:42:57,119 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 12:42:57,119 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 12:42:59,139 - ERROR - Could not connect to Orchestrator on port 6001. Is main.py running?
+2025-06-15 12:48:06,332 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 12:48:06,332 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 12:48:06,335 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 12:48:06,335 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 12:48:06,335 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 12:50:07,233 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 12:50:07,235 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 12:53:46,844 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 12:53:46,844 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 12:53:46,848 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 12:53:46,848 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 12:53:46,848 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 12:56:05,960 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 12:56:05,962 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 13:02:54,285 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 13:02:54,285 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 13:02:54,287 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 13:02:54,287 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 13:02:54,287 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 13:05:26,123 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 13:05:26,123 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 13:05:26,123 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 13:05:26,123 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 13:05:26,123 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 13:07:46,197 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 13:07:46,197 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 13:09:47,761 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 13:09:47,761 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 13:09:47,765 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 13:09:47,765 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 13:09:47,765 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 13:12:35,362 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 13:12:35,371 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 13:18:16,097 - ERROR - Received non-JSON command from orchestrator: scan
+2025-06-15 13:18:39,300 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 13:18:39,300 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 13:18:39,300 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 13:18:39,300 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 13:18:39,300 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 13:21:05,648 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 13:21:05,648 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 13:21:40,464 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 13:21:40,464 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 13:21:40,466 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 13:21:40,466 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 13:21:40,466 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 13:23:52,644 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 13:23:52,644 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 13:23:52,647 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 13:23:52,647 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 13:23:52,647 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 13:25:59,374 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 13:25:59,374 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 14:20:58,674 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 14:20:58,675 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 14:20:58,701 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 14:20:58,701 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 14:20:58,701 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 14:23:06,136 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 14:23:06,139 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:06:42,443 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:06:42,443 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:06:42,465 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:06:42,465 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:06:42,465 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:07:57,202 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:07:57,202 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:07:57,205 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:07:57,205 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:07:57,205 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:10:59,782 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:10:59,782 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:10:59,784 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:10:59,784 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:10:59,784 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:14:06,625 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:14:06,625 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:16:01,743 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:16:01,743 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:16:01,743 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:16:01,743 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:16:01,743 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:18:07,207 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:18:07,207 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:18:56,633 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:18:56,633 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:18:56,639 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:18:56,639 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:18:56,639 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:21:08,754 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:21:08,754 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:27:49,942 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:27:49,942 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:27:49,948 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:27:49,949 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:27:49,949 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:30:09,731 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:30:09,733 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:31:25,851 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:31:25,851 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:31:25,855 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:31:25,855 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:31:25,855 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:32:34,921 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:32:34,923 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:36:58,518 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:36:58,518 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:36:58,521 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:36:58,521 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:36:58,521 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:56:22,213 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:56:22,213 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:56:22,217 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:56:22,217 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:56:22,218 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:57:20,402 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:57:20,402 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 15:59:06,758 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 15:59:06,758 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 15:59:06,761 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 15:59:06,761 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 15:59:06,762 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 15:59:41,667 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 15:59:41,667 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:03:43,182 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:03:43,182 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:03:43,189 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:03:43,189 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:03:43,189 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:04:22,861 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:04:22,862 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:05:55,062 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:05:55,062 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:05:55,067 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:05:55,067 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:05:55,067 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:06:27,554 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:06:27,554 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:08:01,985 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:08:01,985 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:08:01,990 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:08:01,990 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:08:01,990 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:08:41,785 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:08:41,785 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:14:42,095 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:14:42,095 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:14:42,102 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:14:42,102 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:14:42,102 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:15:18,611 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:15:18,611 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:19:39,192 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:19:39,193 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:19:39,196 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:19:39,197 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:19:39,197 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:20:13,684 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:20:13,684 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:23:57,449 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:23:57,449 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:23:57,456 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:23:57,456 - INFO - To Orchestrator >> Sending 8 HTML fields...
+2025-06-15 16:23:57,457 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:24:37,683 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:24:37,683 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:26:07,436 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:26:07,436 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:26:07,439 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:26:07,439 - INFO - To Orchestrator >> Sending 8 HTML fields...
+2025-06-15 16:26:07,439 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:27:06,217 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:27:06,217 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:33:01,449 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:33:01,449 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:33:01,461 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:33:01,461 - INFO - To Orchestrator >> Sending 3 HTML fields...
+2025-06-15 16:33:01,461 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:33:19,595 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:33:19,602 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:34:36,452 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:34:36,452 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:34:36,456 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:34:36,456 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:34:36,457 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 16:35:10,288 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 16:35:10,288 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 16:59:54,024 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 16:59:54,024 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 16:59:54,034 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 16:59:54,034 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 16:59:54,034 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 17:00:38,372 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 17:00:38,372 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 17:09:58,518 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 17:09:58,518 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 17:09:58,522 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 17:09:58,523 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 17:09:58,523 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 17:10:40,174 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 17:10:40,174 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 17:12:48,397 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 17:12:48,397 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 17:12:48,404 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 17:12:48,404 - INFO - To Orchestrator >> Sending 10 HTML fields...
+2025-06-15 17:12:48,404 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 17:13:33,491 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 17:13:33,491 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 17:18:18,474 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 17:18:18,474 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 17:18:18,478 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 17:18:18,479 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 17:18:18,479 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 17:18:59,723 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 17:18:59,723 - INFO - To Extension >> Relaying command: execute_action_plan
+2025-06-15 17:25:29,873 - WARNING - Browser closed the connection. Exiting host script.

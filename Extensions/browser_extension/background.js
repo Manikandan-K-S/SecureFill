@@ -56,43 +56,41 @@ function domFiller(plan) {
                 return; // Use 'return' to skip this action and continue the loop
             }
 
+            // THIS SWITCH STATEMENT HAS BEEN UPDATED
             switch (action.action_type) {
+                case "FILL_EMAIL": // Treat FILL_EMAIL as an alias for FILL_TEXT
                 case "FILL_TEXT":
                     element.value = action.value;
                     break;
 
                 case "SELECT_DROPDOWN":
-                    // Check if the option exists before trying to select it
                     const optionExists = [...element.options].some(opt => opt.value === action.value);
                     if (optionExists) {
                         element.value = action.value;
                     } else {
                         console.warn(`SecureFill: Option "${action.value}" not found for selector "${action.selector}".`);
-                        return; // Skip if AI hallucinated an option
+                        return;
                     }
                     break;
 
                 case "CHECK_BOX":
-                    element.checked = !!action.value; // Ensure value is a boolean
+                    element.checked = !!action.value;
                     break;
                 
                 case "SELECT_RADIO":
-                    // The selector should be specific enough to target one radio button
                     element.checked = true;
                     break;
 
                 default:
                     console.warn(`SecureFill: Unknown action type: "${action.action_type}"`);
-                    return; // Skip unknown actions
+                    return;
             }
             
-            // Dispatch events after changing the value to ensure frameworks like React/Angular detect the change.
             element.dispatchEvent(new Event('input', { bubbles: true }));
             element.dispatchEvent(new Event('change', { bubbles: true }));
             console.log(`SecureFill: Successfully performed ${action.action_type} on "${action.selector}"`);
 
         } catch (error) {
-            // This catch block ensures that if one action throws an unexpected error, the loop continues.
             console.error(`SecureFill: Error performing action on selector "${action.selector}":`, error);
         }
     });
@@ -153,7 +151,7 @@ function contextualHtmlScanner() {
 // --- Initial Setup and Triggers ---
 connect();
 
-// Listen for a command from the native host (e.g., triggered by a hotkey via main.py)
+// Listen for a command from the native host to start the scan
 port.onMessage.addListener((message) => {
     if (message.command === 'scan_page') {
         triggerScan();
