@@ -6,3 +6,4 @@ sentence-transformers
 pyyaml
 requests
 httpx
+faiss-cpu

@@ -1,52 +1,125 @@
-2025-06-15 03:25:23,940 - Received 'scan' command from local trigger.
-2025-06-15 03:25:23,940 - Sending message to extension: {'command': 'scan_page'}
-2025-06-15 03:25:23,946 - Received data from extension: {
+2025-06-15 08:48:29,816 - Browser closed the connection. Exiting.
+2025-06-15 08:48:29,970 - --- Host Service Started by Browser ---
+2025-06-15 08:48:30,122 - Browser closed the connection. Exiting.
+2025-06-15 08:48:30,272 - --- Host Service Started by Browser ---
+2025-06-15 08:48:47,779 - Browser closed the connection. Exiting.
+2025-06-15 08:48:47,939 - --- Host Service Started by Browser ---
+2025-06-15 08:48:48,566 - Browser closed the connection. Exiting.
+2025-06-15 08:48:48,716 - --- Host Service Started by Browser ---
+2025-06-15 08:51:15,828 - Received 'scan' command from local trigger.
+2025-06-15 08:51:15,829 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 08:51:15,835 - Received data from extension: {
   "action": "contextual_scan_result",
   "data": [
-    "<div jscontroller=\"vZr2rb\" jsname=\"gLFyf\" class=\"a4bIc\" data-hpmde=\"false\" data-mnr=\"4\" jsaction=\"h5M12e;input:d3sQLd;blur:jI3wzf\"><div jsname=\"vdLsw\" class=\"YacQv\"></div><div jsname=\"aJyGR\" jscontroller=\"xMclgd\" class=\"gLFyf i4ySpb\" jsaction=\"rcuQ6b:npT2md\"><g-snackbar jsname=\"nH91he\" jscontroller=\"OZLguc\" style=\"display:none\" data-dismiss=\"\" jsshadow=\"\" id=\"ow13\" __is_owner=\"true\"><div jsname=\"Ng57nc\" class=\"Wu0v9b v0rrvd\" data-ved=\"0ahUKEwiXi-zR8fGNAxVrzTgGHe6CH7QQ4G8ICw\" jsowner=\"ow13\"><div class=\"b77HKf\"><div class=\"rIxsve\" jsslot=\"\"><span class=\"Txngnb wHYlTd yUTMj Sxjlmb\">Press <span class=\"qfY0Jf\">/</span> to jump to the search box</span></div></div></div><div jsname=\"sM5MNb\" aria-live=\"polite\" class=\"jhZvod\"></div></g-snackbar></div><textarea class=\"gLFyf\" aria-controls=\"Alh6id\" aria-owns=\"Alh6id\" value=\"internet speed test\" aria-label=\"Search\" placeholder=\"\" aria-autocomplete=\"both\" aria-expanded=\"false\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" id=\"APjFqb\" maxlength=\"2048\" name=\"q\" role=\"combobox\" rows=\"1\" spellcheck=\"false\" jsaction=\"paste:puy29d\" data-ved=\"0ahUKEwiXi-zR8fGNAxVrzTgGHe6CH7QQ39UDCAw\">internet speed test</textarea></div>",
-    "<form action=\"/search\" class=\"T3kYXe\" id=\"T3kYXe\" method=\"get\"><input name=\"q\" value=\"internet speed test\" type=\"hidden\"><input name=\"sca_esv\" value=\"edd97e466db1e8a2\" type=\"hidden\"><input name=\"source\" type=\"hidden\" value=\"lnt\"><input value=\"cdr:1,cd_min:x,cd_max:x\" id=\"HjtPBb\" name=\"tbs\" type=\"hidden\"><input value=\"\" name=\"tbm\" type=\"hidden\"><input class=\"OouJcb\" type=\"text\" value=\"\" autocomplete=\"off\" id=\"OouJcb\" jsaction=\"focus:daRB0b\"><input class=\"rzG2be\" type=\"text\" value=\"\" autocomplete=\"off\" id=\"rzG2be\" jsaction=\"focus:daRB0b\"><g-button class=\"Ru1Ao BwGU8e fE5Rge\" jsaction=\"hNEEAb\" role=\"button\" tabindex=\"0\">Go</g-button><input type=\"submit\" jsaction=\"zbvklb\" style=\"display:none\"></form>"
+    "<div class=\"form-control_controlWrapperStyles__oy4jpq1\" dir=\"ltr\"><input type=\"email\" autocomplete=\"off\" dir=\"ltr\" placeholder=\"\" class=\"input_nativeElementStyles__1euouia0\" id=\":r5:\" name=\"email\" data-uia=\"field-email\" value=\"\"><div aria-hidden=\"true\" class=\"form-control_controlChromeStyles__oy4jpq4\" dir=\"ltr\"></div></div>",
+    "<div class=\"form-control_controlWrapperStyles__oy4jpq1\" dir=\"ltr\"><input type=\"password\" autocomplete=\"new-password\" dir=\"ltr\" placeholder=\"\" class=\"input_nativeElementStyles__1euouia0\" id=\":r8:\" name=\"password\" data-uia=\"field-password\" value=\"\"><div aria-hidden=\"true\" class=\"form-control_controlChromeStyles__oy4jpq4\" dir=\"ltr\"></div></div>",
+    "<div class=\"nfSelectPlacement globe\"><select data-uia=\"language-picker\" class=\"nfSelect\" id=\"lang-switcher-select\" name=\"__langSelect\" tabindex=\"0\"><option label=\"English\" lang=\"en\" value=\"/signup/regform?locale=en-IN\">English</option><option label=\"\u0939\u093f\u0928\u094d\u0926\u0940\" lang=\"hi\" value=\"/signup/regform?locale=hi-IN\">\u0939\u093f\u0928\u094d\u0926\u0940</option></select></div>",
+    "<div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Third Party Performance and Functionality Cookies</span></label> </div>",
+    "<div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0004\" id=\"ot-group-id-C0004\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0004\" checked=\"\" aria-labelledby=\"ot-header-id-C0004\"> <label class=\"ot-switch\" for=\"ot-group-id-C0004\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Advertising Cookies</span></label> </div>",
+    "<div id=\"ot-search-cntr\"><p role=\"status\" class=\"ot-scrn-rdr\"></p><input id=\"vendor-search-handler\" type=\"text\" name=\"vendor-search-handler\" placeholder=\"Search\u2026\" aria-label=\"Cookie list search\"> <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -30 110 110\" aria-hidden=\"true\"><path fill=\"#2e3644\" d=\"M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23\n              s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92\n              c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17\n              s-17-7.626-17-17S14.61,6,23.984,6z\"></path></svg></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-hostcntr\"><input id=\"select-all-hosts-groups-handler\" type=\"checkbox\"> <label for=\"select-all-hosts-groups-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-vencntr\"><input id=\"select-all-vendor-groups-handler\" type=\"checkbox\"> <label for=\"select-all-vendor-groups-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-licntr\"><input id=\"select-all-vendor-leg-handler\" type=\"checkbox\"> <label for=\"select-all-vendor-leg-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\"><input id=\"chkbox-id\" type=\"checkbox\" class=\"category-filter-handler\"> <label for=\"chkbox-id\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>"
   ]
 }
-2025-06-15 04:07:50,125 - Browser closed the connection. Exiting.
-2025-06-15 05:18:58,933 - --- Host Service Started by Browser ---
-2025-06-15 05:19:08,684 - Browser closed the connection. Exiting.
-2025-06-15 05:19:20,461 - --- Host Service Started by Browser ---
-2025-06-15 05:19:22,382 - Browser closed the connection. Exiting.
-2025-06-15 05:19:22,534 - --- Host Service Started by Browser ---
-2025-06-15 05:19:31,612 - Received 'scan' command from local trigger.
-2025-06-15 05:19:31,612 - Sending message to extension: {'command': 'scan_page'}
-2025-06-15 05:19:31,612 - Received data from extension: {
-  "action": "contextual_scan_result",
-  "data": []
-}
-2025-06-15 05:19:45,670 - Received 'scan' command from local trigger.
-2025-06-15 05:19:45,670 - Sending message to extension: {'command': 'scan_page'}
-2025-06-15 05:19:45,676 - Received data from extension: {
+2025-06-15 10:06:50,526 - Received 'scan' command from local trigger.
+2025-06-15 10:06:50,527 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 10:06:50,529 - Received data from extension: {
   "action": "contextual_scan_result",
   "data": [
-    "<div class=\"ant-form-item-control has-success\"><span class=\"ant-form-item-children\"><input type=\"text\" placeholder=\"Enter Email address\" autocomplete=\"username\" id=\"loginName\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\" value=\"24mx112@psgtech.ac.in\"></span></div>",
-    "<div class=\"ant-form-item-control\"><span class=\"ant-form-item-children\"><input type=\"password\" placeholder=\"Password\" autocomplete=\"current-password\" id=\"password\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\"></span></div>",
-    "<form id=\"goog-gt-votingForm\" action=\"//translate.googleapis.com/translate_voting?client=te_lib\" method=\"post\" target=\"votingFrame\" class=\"VIpgJd-yAWNEb-hvhgNd-aXYTce\"><input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\"><input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\"><input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\"><input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\"><input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\"></form>"
+    "<div class=\"form-control_controlWrapperStyles__oy4jpq1\" dir=\"ltr\"><input type=\"email\" autocomplete=\"off\" dir=\"ltr\" placeholder=\"\" class=\"input_nativeElementStyles__1euouia0\" id=\":r5:\" name=\"email\" data-uia=\"field-email\" value=\"\"><div aria-hidden=\"true\" class=\"form-control_controlChromeStyles__oy4jpq4\" dir=\"ltr\"></div></div>",
+    "<div class=\"form-control_controlWrapperStyles__oy4jpq1\" dir=\"ltr\"><input type=\"password\" autocomplete=\"new-password\" dir=\"ltr\" placeholder=\"\" class=\"input_nativeElementStyles__1euouia0\" id=\":r8:\" name=\"password\" data-uia=\"field-password\" value=\"\"><div aria-hidden=\"true\" class=\"form-control_controlChromeStyles__oy4jpq4\" dir=\"ltr\"></div></div>",
+    "<div class=\"nfSelectPlacement globe\"><select data-uia=\"language-picker\" class=\"nfSelect\" id=\"lang-switcher-select\" name=\"__langSelect\" tabindex=\"0\"><option label=\"English\" lang=\"en\" value=\"/signup/regform?locale=en-IN\">English</option><option label=\"\u0939\u093f\u0928\u094d\u0926\u0940\" lang=\"hi\" value=\"/signup/regform?locale=hi-IN\">\u0939\u093f\u0928\u094d\u0926\u0940</option></select></div>",
+    "<div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Third Party Performance and Functionality Cookies</span></label> </div>",
+    "<div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0004\" id=\"ot-group-id-C0004\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0004\" checked=\"\" aria-labelledby=\"ot-header-id-C0004\"> <label class=\"ot-switch\" for=\"ot-group-id-C0004\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Advertising Cookies</span></label> </div>",
+    "<div id=\"ot-search-cntr\"><p role=\"status\" class=\"ot-scrn-rdr\"></p><input id=\"vendor-search-handler\" type=\"text\" name=\"vendor-search-handler\" placeholder=\"Search\u2026\" aria-label=\"Cookie list search\"> <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -30 110 110\" aria-hidden=\"true\"><path fill=\"#2e3644\" d=\"M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23\n              s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92\n              c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17\n              s-17-7.626-17-17S14.61,6,23.984,6z\"></path></svg></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-hostcntr\"><input id=\"select-all-hosts-groups-handler\" type=\"checkbox\"> <label for=\"select-all-hosts-groups-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-vencntr\"><input id=\"select-all-vendor-groups-handler\" type=\"checkbox\"> <label for=\"select-all-vendor-groups-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-licntr\"><input id=\"select-all-vendor-leg-handler\" type=\"checkbox\"> <label for=\"select-all-vendor-leg-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\"><input id=\"chkbox-id\" type=\"checkbox\" class=\"category-filter-handler\"> <label for=\"chkbox-id\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>"
   ]
 }
-2025-06-15 05:21:32,842 - Received 'scan' command from local trigger.
-2025-06-15 05:21:32,843 - Sending message to extension: {'command': 'scan_page'}
-2025-06-15 05:21:32,845 - Received data from extension: {
+2025-06-15 10:07:36,388 - Received 'scan' command from local trigger.
+2025-06-15 10:07:36,388 - Sending message to extension: {'command': 'scan_page'}
+2025-06-15 10:07:36,388 - Received data from extension: {
   "action": "contextual_scan_result",
   "data": [
-    "<div class=\"ant-form-item-control has-success\"><span class=\"ant-form-item-children\"><input type=\"text\" placeholder=\"Enter Email address\" autocomplete=\"username\" id=\"loginName\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\" value=\"24mx112@psgtech.ac.in\"></span></div>",
-    "<div class=\"ant-form-item-control\"><span class=\"ant-form-item-children\"><input type=\"password\" placeholder=\"Password\" autocomplete=\"current-password\" id=\"password\" data-__meta=\"[object Object]\" data-__field=\"[object Object]\" class=\"ant-input ant-input-lg\"></span></div>",
-    "<form id=\"goog-gt-votingForm\" action=\"//translate.googleapis.com/translate_voting?client=te_lib\" method=\"post\" target=\"votingFrame\" class=\"VIpgJd-yAWNEb-hvhgNd-aXYTce\"><input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\"><input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\"><input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\"><input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\"><input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\"></form>"
+    "<div class=\"form-control_controlWrapperStyles__oy4jpq1\" dir=\"ltr\"><input type=\"email\" autocomplete=\"off\" dir=\"ltr\" placeholder=\"\" class=\"input_nativeElementStyles__1euouia0\" id=\":r5:\" name=\"email\" data-uia=\"field-email\" value=\"\"><div aria-hidden=\"true\" class=\"form-control_controlChromeStyles__oy4jpq4\" dir=\"ltr\"></div></div>",
+    "<div class=\"form-control_controlWrapperStyles__oy4jpq1\" dir=\"ltr\"><input type=\"password\" autocomplete=\"new-password\" dir=\"ltr\" placeholder=\"\" class=\"input_nativeElementStyles__1euouia0\" id=\":r8:\" name=\"password\" data-uia=\"field-password\" value=\"\"><div aria-hidden=\"true\" class=\"form-control_controlChromeStyles__oy4jpq4\" dir=\"ltr\"></div></div>",
+    "<div class=\"nfSelectPlacement globe\"><select data-uia=\"language-picker\" class=\"nfSelect\" id=\"lang-switcher-select\" name=\"__langSelect\" tabindex=\"0\"><option label=\"English\" lang=\"en\" value=\"/signup/regform?locale=en-IN\">English</option><option label=\"\u0939\u093f\u0928\u094d\u0926\u0940\" lang=\"hi\" value=\"/signup/regform?locale=hi-IN\">\u0939\u093f\u0928\u094d\u0926\u0940</option></select></div>",
+    "<div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Third Party Performance and Functionality Cookies</span></label> </div>",
+    "<div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0004\" id=\"ot-group-id-C0004\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0004\" checked=\"\" aria-labelledby=\"ot-header-id-C0004\"> <label class=\"ot-switch\" for=\"ot-group-id-C0004\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Advertising Cookies</span></label> </div>",
+    "<div id=\"ot-search-cntr\"><p role=\"status\" class=\"ot-scrn-rdr\"></p><input id=\"vendor-search-handler\" type=\"text\" name=\"vendor-search-handler\" placeholder=\"Search\u2026\" aria-label=\"Cookie list search\"> <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -30 110 110\" aria-hidden=\"true\"><path fill=\"#2e3644\" d=\"M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23\n              s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92\n              c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17\n              s-17-7.626-17-17S14.61,6,23.984,6z\"></path></svg></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-hostcntr\"><input id=\"select-all-hosts-groups-handler\" type=\"checkbox\"> <label for=\"select-all-hosts-groups-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-vencntr\"><input id=\"select-all-vendor-groups-handler\" type=\"checkbox\"> <label for=\"select-all-vendor-groups-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\" id=\"ot-selall-licntr\"><input id=\"select-all-vendor-leg-handler\" type=\"checkbox\"> <label for=\"select-all-vendor-leg-handler\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>",
+    "<div class=\"ot-chkbox\"><input id=\"chkbox-id\" type=\"checkbox\" class=\"category-filter-handler\"> <label for=\"chkbox-id\"><span class=\"ot-label-txt\">checkbox label</span></label> <span class=\"ot-label-status\">label</span></div>"
   ]
 }
-2025-06-15 05:21:43,346 - Received 'scan' command from local trigger.
-2025-06-15 05:21:43,346 - Sending message to extension: {'command': 'scan_page'}
-2025-06-15 05:21:43,351 - Received data from extension: {
-  "action": "contextual_scan_result",
-  "data": [
-    "<div class=\"nwaBody\"><a name=\"A_user\"></a>\n      <input type=\"email\" style=\"width: 200px;\" name=\"user\" id=\"ID_form902c6a6b_guest_login_user\" value=\"\" autocapitalize=\"off\" autocorrect=\"off\" aria-labelledby=\"LB_form902c6a6b_guest_login_user\">\n    </div>",
-    "<div class=\"nwaBody\"><a name=\"A_password\"></a>\n      <input type=\"password\" style=\"width: 200px;\" name=\"password\" id=\"ID_form902c6a6b_guest_login_password\" value=\"\" autocomplete=\"new-password\" aria-labelledby=\"LB_form902c6a6b_guest_login_password\">\n     <label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-1\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-1\" value=\"no-ff-pwmgr-1\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n<label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-2\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-2\" value=\"no-ff-pwmgr-2\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n<label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-3\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-3\" value=\"no-ff-pwmgr-3\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n<label for=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-4\" style=\"display:none;\" aria-hidden=\"true\">Unused field<input type=\"password\" autocomplete=\"new-password\" id=\"PW_form902c6a6b_guest_login_password_no-ff-pwmgr-4\" value=\"no-ff-pwmgr-4\" style=\"display:none;\" aria-label=\"Unused field\"></label>\n    </div>",
-    "<div class=\"nwaBody\"><a name=\"A_visitor_accept_terms\"></a>\n      <input type=\"checkbox\" id=\"ID_form902c6a6b_guest_login_visitor_accept_terms\" name=\"visitor_accept_terms\" value=\"1\" aria-labelledby=\"LB_form902c6a6b_guest_login_visitor_accept_terms LB_ID_form902c6a6b_guest_login_visitor_accept_terms\">\n      <label id=\"LB_ID_form902c6a6b_guest_login_visitor_accept_terms\" for=\"ID_form902c6a6b_guest_login_visitor_accept_terms\">I accept the <a href=\"public/tou.html\" target=\"_blank\" title=\"Open the terms of use URL.\">terms of use</a></label>\n    </div>",
-    "<div class=\"nwaBottom\" colspan=\"2\">\n     <a name=\"A_submit\"></a>\n       <input type=\"submit\" id=\"ID_form902c6a6b_guest_login_submit\" value=\"Log In\" disabled=\"\">\n<script language=\"JavaScript\" type=\"text/javascript\"><!--\ndocument.getElementById(\"ID_form902c6a6b_guest_login_submit\").onclick = function (ev) {\n\tev = ev || window.event;\n\tr = Nwa_SubmitForm(\"form902c6a6b_guest_login\",\"ID_form902c6a6b_guest_login_submit\");\n\tev.returnValue = r;\n\treturn r;\n}\n//-->\n</script>\n    </div>"
-  ]
-}
+2025-06-15 10:10:49,146 - Browser closed the connection. Exiting.
+2025-06-15 10:10:49,285 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:10:49,285 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:10:49,613 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:10:49,765 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:10:49,767 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:10:50,147 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:10:50,312 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:10:50,314 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:10:50,543 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:10:50,696 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:10:50,697 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:10:56,089 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 10:10:56,089 - INFO - To Extension >> scan_page
+2025-06-15 10:10:56,091 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 10:10:56,095 - INFO - To Orchestrator >> Sending 10 HTML fields...
+2025-06-15 10:10:56,095 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 10:18:34,149 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 10:18:34,149 - INFO - To Extension >> scan_page
+2025-06-15 10:18:34,154 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 10:18:34,155 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 10:18:34,155 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 10:26:22,157 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 10:26:22,157 - INFO - To Extension >> scan_page
+2025-06-15 10:26:22,161 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 10:26:22,161 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 10:26:22,162 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 10:29:25,565 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 10:29:25,565 - INFO - To Extension >> scan_page
+2025-06-15 10:29:25,567 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 10:29:25,567 - INFO - To Orchestrator >> Sending 10 HTML fields...
+2025-06-15 10:29:25,572 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 10:41:25,910 - INFO - From Orchestrator << Received command: '{"command": "scan"}'
+2025-06-15 10:41:44,337 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:44,494 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:44,500 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:41:44,893 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:45,047 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:45,048 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:41:45,086 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:45,237 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:45,238 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:41:45,252 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:45,402 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:45,405 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:41:45,417 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:45,564 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:45,566 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:41:45,590 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:45,738 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:45,740 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:41:51,640 - WARNING - Browser closed the connection. Exiting host script.
+2025-06-15 10:41:51,799 - INFO - --- Host Messenger Service Started by Browser ---
+2025-06-15 10:41:51,800 - INFO - Listening for commands from Orchestrator on port 6000
+2025-06-15 10:42:13,798 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 10:42:13,798 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 10:42:13,809 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 10:42:13,809 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 10:42:13,811 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 10:47:56,091 - INFO - From Orchestrator << Received command: 'scan'
+2025-06-15 10:47:56,091 - INFO - To Extension >> Relaying command: scan_page
+2025-06-15 10:47:56,094 - INFO - From Extension << Received action: 'contextual_scan_result'
+2025-06-15 10:47:56,094 - INFO - To Orchestrator >> Sending 5 HTML fields...
+2025-06-15 10:47:56,094 - INFO - To Orchestrator >> Data sent successfully.
+2025-06-15 10:49:54,441 - INFO - From Orchestrator << Received command: 'execute_plan'
+2025-06-15 10:49:54,441 - INFO - To Extension >> Relaying command: execute_action_plan
