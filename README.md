@@ -33,7 +33,7 @@ This will prepare the local environment that runs the AI and communicates with t
 1.  **Clone the Repository:**
     Open a terminal or command prompt and clone the project files.
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/Manikandan-K-S/SecureFill
     cd SecureFill
     ```
 
