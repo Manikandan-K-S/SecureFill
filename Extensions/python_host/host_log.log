@@ -50,3 +50,4 @@
     "<div class=\"nwaBottom\" colspan=\"2\">\n     <a name=\"A_submit\"></a>\n       <input type=\"submit\" id=\"ID_form902c6a6b_guest_login_submit\" value=\"Log In\" disabled=\"\">\n<script language=\"JavaScript\" type=\"text/javascript\"><!--\ndocument.getElementById(\"ID_form902c6a6b_guest_login_submit\").onclick = function (ev) {\n\tev = ev || window.event;\n\tr = Nwa_SubmitForm(\"form902c6a6b_guest_login\",\"ID_form902c6a6b_guest_login_submit\");\n\tev.returnValue = r;\n\treturn r;\n}\n//-->\n</script>\n    </div>"
   ]
 }
+2025-06-15 00:30:41,701 - Browser closed the connection. Exiting.

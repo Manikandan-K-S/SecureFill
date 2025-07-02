@@ -29,7 +29,7 @@ end = time.time()
 # Optimized retriever with MMR
 print(f"FAISS index loaded in {end - start:.2f} seconds")
 start = time.time()
-retriever = db.as_retriever(search_kwargs={"k": 10})
+retriever = db.as_retriever(search_kwargs={"k": 3})
 end = time.time()
 
 print(f"FAISS retreiver time {end - start:.2f} seconds")
@@ -66,7 +66,7 @@ prompt = PromptTemplate(
 )
 
 # User Query
-input_query = "pan card no"
+input_query = "pan card no and my aadhar number"
 query = prompt.format(query=input_query)
 
 for i in range(4):
